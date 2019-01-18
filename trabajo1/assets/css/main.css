@@ -1,0 +1,110 @@
+/*paleta de colores
+rosa:ED006B
+azul:0000FF
+turqueza:42D8FF
+vede agua:00FF88
+rojo:FF0026
+negro:999
+lila:#FF3CDA
+*/
+html{
+  font-family: 'Nunito Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #FF0026;
+
+}
+a:hover{/*estado en el que se encutra un titulo cuando el cursor pasa por arriba*/
+  opacity: 0.8;
+}
+.titulo{
+  text-transform: uppercase;
+}
+.Coiny{font-family: 'Coiny', cursive;
+text-align: center;
+}
+.paragraph{
+  line-height: 1.8em;
+  font-weight: 300;
+}
+.conteiner{
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;/*esto representa el anocho total de la pantalla*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  max-width: 960px; /*ancho maximo de*/
+  max-height: 500px;/*alto maximo de*/
+  width: 100%;/*que abarque todo el ancho// se estira todo el ancho que pueda si salir de los limites*/
+  height:100%;/*que abarque todo el alto // se estira todo el largo que pueda si salir de los limites*/
+  background-color: white;
+  /*box-shadow: diferenciahorizontal diferenciavertical desenfoque amplitud color*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
+  border-radius:4px;
+  position: relative;
+  padding: 1.8em;
+}
+.table{
+  width: 100%;
+border-spacing: 0;
+}
+.table td, .table th{
+  padding: 1em;
+  text-align: left;
+  }
+  .fa-star, .fa-star-o{
+    color: yellow;
+  }
+  .table tr:nth-child(even){background-color:#00FF88}
+
+  .title-items{
+    /*border-bottom-style:solid;
+    border-width: 2px;
+    border-color: #FF3CDA;*/
+    font-size: 2em;
+    border-bottom: solid 2px #FF3CDA;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+  }
+  .position{
+    background-color: #FF3CDA;
+    color: white;
+    padding: 10px;
+    border-radius:4px;
+    margin-right: 0.5em
+  }
+  div.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+  .close{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #ED006B;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address{
+  font-weight: bold;
+  color: #ED006B;
+  font-size: 1.2em;
+}
+.main-image{
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+}
+/*comentarios*/
