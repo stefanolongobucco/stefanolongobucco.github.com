@@ -1,0 +1,170 @@
+/*colores
+verde:#00897b
+*/
+
+html{
+
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+.conteiner{
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: solid 8px white;
+  padding-top: 1em;
+}
+.block{
+  background-color: white;
+  max-height: 650px;
+  max-width: 1100px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
+  display: flex;
+  justify-content: center;
+  border-radius:4px;
+  padding-bottom: 6em;
+  padding-top: 1.5em;
+
+}
+
+.title-items{
+  text-align: center;
+
+}
+
+.material-icons {
+  color: white;
+  text-align: center;
+}
+
+.content{
+  background-color: #00897b;
+  max-height: 510px;
+  max-width: 1000px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 1.8em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
+  border-radius:2em;
+}
+.table{
+  width: 100%;
+  border-bottom: solid 7px white;
+  padding-bottom: 1em;
+
+}
+thead{
+  font-family: 'Staatliches', cursive;
+  font-size: 18px;
+}
+tbody {
+  font-family: 'Abril Fatface', cursive;
+}
+
+  .table td, .table th{
+  padding: 7px;
+  text-align: left;
+}
+.camara{
+  position: absolute; bottom: 20px;
+  position: absolute;left: 250px
+}
+.deed{
+  position: absolute; bottom: 20px;
+  position: absolute;left:  500px;
+  }
+  .dada{
+    position: absolute; bottom: 20px;
+    position: absolute;left:  750px;
+    }
+    .close{
+      width: 40px;
+      height: 40px;
+      color: white;
+      background-color: #ED006B;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute; top: 20px;
+      position: absolute;right: 20px;
+  }
+  .main-image{
+    float: left;
+    margin-right: 1em;
+  }
+  .title-item{
+    /*border-bottom-style:solid;
+    border-width: 2px;
+    border-color: #FF3CDA;*/
+    font-size: 2em;
+    border-bottom: solid 2px #FF3CDA;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+  }
+  .contente{
+    background-color: #black;
+    max-height: 510px;
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 1.8em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
+    border-radius:2em;
+  }
+    .paragraph{
+      line-height: 1em;
+      font-weight: 300;
+      text-align: center;
+    }
+    .paragraph2{
+      line-height: 1em;
+      font-weight: 300;
+      position: absolute;bottom:20px;
+      position: absolute;left: auto;
+      text-align: justify;
+      font-size: 11px;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+
+    }
+    a:hover{/*estado en el que se encutra un titulo cuando el cursor pasa por arriba*/
+      opacity: 0.8;
+    }
+.boton{
+  position: absolute;bottom: 0;
+  position: absolute;right: 20;
+  color: white;
+}
+.closes{
+  width: 80px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  background-color: #ED006B;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; bottom:20px;
+  position: absolute;right:20px;
