@@ -10,7 +10,7 @@ html{
 .conteiner{
   background-color: black;
   display: flex;
-  width: 80em;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -23,12 +23,13 @@ html{
 }
 .block{
   background-color: white;
-  height: 38em;
-  width:  65em;
+  max-height: 650px;
+  max-width: 1100px;
+  height: 100%;
+  width: 100%;
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
   display: flex;
-  align-items: center;
   justify-content: center;
   border-radius:4px;
   padding-bottom: 6em;
@@ -48,12 +49,12 @@ html{
 
 .content{
   background-color: #00897b;
-  height: 30em;
-  width: 60em;
+  max-height: 510px;
+  max-width: 1000px;
+  height: 100%;
+  width: 100%;
   position: relative;
-  align-items: center;
-  justify-content: center;
-  padding: 0em;
+  padding: 1;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
   border-radius:2em;
 }
@@ -72,7 +73,7 @@ tbody {
 }
 
   .table td, .table th{
-  padding: 4px;
+  padding: 7px;
   text-align: left;
 }
 .camara{
@@ -167,8 +168,4 @@ tbody {
   justify-content: center;
   position: absolute; bottom:20px;
   position: absolute;right:20px;
-}
-
-@@media (min-width:900px) {
-  .content
 }
