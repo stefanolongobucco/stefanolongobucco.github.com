@@ -49,12 +49,10 @@ html{
 
 .content{
   background-color: #00897b;
-  max-height: 510px;
-  max-width: 1000px;
-  height: 100%;
-  width: 100%;
+  height: 32em;
+  width: 65em;
   position: relative;
-  padding: 1.8em;
+  padding: 1em;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
   border-radius:2em;
 }
@@ -168,3 +166,4 @@ tbody {
   justify-content: center;
   position: absolute; bottom:20px;
   position: absolute;right:20px;
+}
