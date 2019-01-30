@@ -10,7 +10,7 @@ html{
 .conteiner{
   background-color: black;
   display: flex;
-  height: 100vh;
+  width: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -23,11 +23,12 @@ html{
 }
 .block{
   background-color: white;
-  height: 40em;
-  width:  68em;
+  height: 38em;
+  width:  65em;
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
   display: flex;
+  align-items: center;
   justify-content: center;
   border-radius:4px;
   padding-bottom: 6em;
@@ -47,9 +48,11 @@ html{
 
 .content{
   background-color: #00897b;
-  height: 32em;
-  width: 65em;
+  height: 30em;
+  width: 60em;
   position: relative;
+  align-items: center;
+  justify-content: center;
   padding: 0em;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16); /*cuando falta un dato el que no figura es la amplitud*/
   border-radius:2em;
